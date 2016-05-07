@@ -1,0 +1,76 @@
+title:            Programming,music,anime and manga
+description:      Building a stateless cross platform renderer and writing about it.I'll occasionally write tutorials or my thoughts on things.
+
+disqus_shortname: arkenthera
+reading_time:     true
+words_per_minute: 200
+
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+# url: http://arkenthera.github.io
+url: http://arkenthera.github.io/blog/
+
+
+
+# Owner/author information
+owner:
+  name:           arkenthera
+  avatar:         avatar.jpg
+
+  bio:            "Currently at last year for my Software Enginnering Bachelor's Degree.I like graphics programming and game development in general.Also a gamer and love manga/anime."
+  email:          arkenthera@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        arkenthera
+  facebook:
+  github:         arkenthera
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-66897169-1'
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+highlighter: pygments
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
