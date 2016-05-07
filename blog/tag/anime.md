@@ -1,0 +1,9 @@
+---
+layout: tag_post
+title: 'Anime'
+tag: anime
+permalink: /blog/tag/anime/
+image:
+  feature: animecover.jpg
+---
+
